@@ -1,55 +1,43 @@
-# Prerequisites
-*.d
+# Executables
+server
+client
+*.out
+*.exe
 
 # Object files
 *.o
-*.ko
 *.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
+# Static and shared libraries
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
-*.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Logs
+*.log
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Core dumps
+core
+core.*
 
-# debug information files
-*.dwo
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Build directories
+build/
+bin/
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+
+# macOS
+.DS_Store
