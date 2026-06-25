@@ -99,7 +99,7 @@ OtherClients-->>OtherClients: Refresh UI
 
 Demonstrates the server running alongside a connected client.
 
-> *Insert Screenshot 1*
+![Server and Client](images/server-client.png)
 
 ---
 
@@ -107,23 +107,23 @@ Demonstrates the server running alongside a connected client.
 
 Duplicate account registration is prevented through SQLite-backed authentication.
 
-> *Insert Screenshot 2*
+![Authentication](images/authentication.png)
 
 ---
 
 ### 3. Multiple Connected Users
 
-Two authenticated users connected simultaneously to the same server.
+Two authenticated users connected simultaneously to the same server.Tasks created or modified by one client are immediately synchronized across all connected clients.
 
-> *Insert Screenshot 3*
+![Synchronisation](images/multiple-users-synchronisation.png)
 
 ---
 
-### 4. Real-Time Synchronization
+### 4. Task Info (Meta data)
 
-Tasks created or modified by one client are immediately synchronized across all connected clients.
+View detailed task information including assignee, priority, due date, last updated timestamp, and the user who last modified the task.
 
-> *Insert Screenshot 4*
+![Info](images/info.png)
 
 ---
 
@@ -131,7 +131,7 @@ Tasks created or modified by one client are immediately synchronized across all 
 
 Toast notifications inform connected users whenever a task is marked as completed.
 
-> *Insert Screenshot 5*
+![Toast](images/toast.png)
 
 ---
 
@@ -144,7 +144,7 @@ Displays due task reminders together with live statistics including:
 * Pending Tasks
 * High Priority Tasks
 
-> *Insert Screenshot 6*
+![reminder-stats](images/reminder-stats.png)
 
 ---
 
